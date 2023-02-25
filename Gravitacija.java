@@ -3,8 +3,8 @@ public class Gravitacija {
 
     public static void main(String[] args) {
         System.out.println("OIS je zakon!");
-        Scanner sc = new Scanner(System.in);
-        double visina = sc.nextInt();
+        Scanner sc = new Scanner(System.in);	
+        double visina = sc.nextDouble();
         izpis(visina);
     }
 
